@@ -4,7 +4,7 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-
+//Maps to the country table in my database
 @Entity
 @Table(name = "country_data")
 public class CountryDatum {
